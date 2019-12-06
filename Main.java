@@ -11,8 +11,10 @@ public class Main {
      int age = scan.nextInt();
      System.out.print("What's your address? ");
      String address = scan.nextLine();
+     address = scan.nextLine();
+        
      System.out.println("Hi "+name+"!");
-     System.out.println("You are "+ age + "years old!");
-     System.out.println("You live at" + address);
+     System.out.println("You are "+ age + " years old!");
+     System.out.println("You live at " + address);
     }
 }
